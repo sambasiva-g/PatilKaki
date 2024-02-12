@@ -1,0 +1,166 @@
+/* styles.css */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ad21ea;
+}
+header
+{
+    width: 100%;
+    background-color: #e3abfa;
+    position: fixed;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ad21ea;
+    text-align: center;
+    padding: 100px 0;
+    display: flex;
+}
+.main img
+{
+    border-radius: 5%;
+    width:90%;
+    height: 300%;
+    padding-left: 2%;
+}
+
+#reg button
+{
+    padding: 9px 30px;
+    font-size: 1.2em;
+    background-color: #7222f2;
+    color: #fff;
+}
+
+#reg button:hover
+{
+    background-color: #5c0ae1;
+}
+
+.hero:hover {
+    background-color: #901ac2;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #333;
+}
+.hero h1:hover{
+    color:#f0f0f0
+}
+
+/* About Founder Section */
+.about-founder {
+    
+    text-align: center;
+    padding: 100px 0;
+}
+.about-founder:hover
+{
+    background-color: #901ac2;
+}
+.about-founder h2:hover{
+    color:#fff ;
+}
+
+.about-founder img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Why Choose Us Section */
+.why-choose {
+    
+    text-align: center;
+    padding: 100px 0;
+}
+.why-choose:hover{
+    background-color: #901ac2;
+}
+.why-choose h2:hover
+{
+    color:#fff;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+
+.icon img  {
+    flex: 1;
+    border-radius: 10%;
+    
+}
+.icon1 {
+    flex: 1;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Countdown Timer Section */
+.countdown {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta button:hover {
+    background-color: #555;
+}
+
+/* Form Section */
+.slide-form {
+    position:fixed;
+    bottom: -300px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:#e3abfa;
+    width: 80%;
+    padding: 30px;
+    border-top: 1px solid #ccc;
+    transition: bottom 2s ease;
+    border-radius: 10px;
+    
+}
+
+.form-content {
+    text-align: center;
+}
+
+.slide-form.active {
+    bottom: 0;
+}
